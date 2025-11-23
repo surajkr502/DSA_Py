@@ -39,8 +39,28 @@ from array import *
 #         pass
 # print(int_arr)
 
-# 5. Write a python script  to calculate average of elements of list?
+# 5. Write a python script  to calculate average of elements of list.
 list=[54,67,12,96,50,36,74,38,65]
-print(type(list))
-ave_list=0
-for i in list:
+# if list==0:
+#     print('list is empty')
+# else:
+#     total=sum(list)
+#     count=len(list)
+# average=total/count
+# print(round(average,2))
+
+# 6. Write a python script  to calculate average of elements of list without using any method.
+# total=0
+# count=0
+# for i in list:
+#     total=total+i
+#     count=count+1
+# average=total/count
+# print(round(average,2))
+
+
+# Write a python script to create a list to first  n prime numbers.
+n=int(input('Enter how many prime numbers you want:'))
+prime=[]
+# if n%1==0 &
+# Write a python script to create a list to first n term of fibonacci series.
